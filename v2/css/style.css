@@ -97,7 +97,7 @@ canvas {
 }
 
 .stars {
-    background: #000000 url(../img/) repeat top center;
+    background: #000000 url(../img/four.jpg) repeat top center;
     z-index: 0;
 }
 
