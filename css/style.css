@@ -123,3 +123,20 @@ canvas {
     background-size: cover; 
     z-index: 200; 
 }
+
+.text-new-year {
+    font-family: 'Great Vibes', cursive;
+    color: white;
+    position: absolute;
+    font-size: 95px;
+    top: 60%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    z-index: 50;
+    margin: auto auto;
+    line-height: 200px;
+    text-align: center;
+}
