@@ -117,8 +117,8 @@ canvas {
     top: 50px; 
     left: 50%; 
     transform: translateX(-50%);
-    width: 180px;
-    height: 100px;
+    width: 230px;
+    height: 200px;
     background: url(../img/UBU_White_Trans.png) no-repeat center center;
     background-size: cover; 
     z-index: 200; 
