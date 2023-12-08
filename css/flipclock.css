@@ -51,9 +51,9 @@
 
 .flip-clock-wrapper {
   text-align: center;
-  width: 690px;
+  width: 950px; 
   margin: 0 auto;
-  height: 100px;
+  height: 130px;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -76,8 +76,8 @@
   position: relative;
   float: left;
   margin: 5px;
-  width: 60px;
-  height: 90px;
+  width: 100px;
+  height: 170px;
   font-size: 80px;
   font-weight: bold;
   line-height: 87px;
@@ -136,7 +136,7 @@
 .flip-clock-wrapper ul li a div.up:after {
   content: "";
   position: absolute;
-  top: 44px;
+  top: 83px;
   left: 0;
   z-index: 5;
   width: 100%;
@@ -166,7 +166,9 @@
   text-align: center;
   background-color: #333;
   border-radius: 6px;
-  font-size: 70px; }
+  font-size: 170px; 
+  padding-top: 40px;
+}
 
 .flip-clock-wrapper ul li a div.up div.inn {
   top: 0; }
@@ -210,15 +212,16 @@
 .flip-clock-divider .flip-clock-label {
   position: absolute;
   top: -1.5em;
-  right: -86px;
+  right: -150px;
+  font-size: 3em;
   color: #444;
   text-shadow: none; }
 
 .flip-clock-divider.minutes .flip-clock-label {
-  right: -88px; }
+  right: -10x; }
 
 .flip-clock-divider.seconds .flip-clock-label {
-  right: -91px; }
+  right: -180px; }
 
 .flip-clock-dot.top {
   top: 30px; }

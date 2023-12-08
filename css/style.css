@@ -126,6 +126,7 @@ canvas {
 
 .text-new-year {
     font: normal "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
     color: white;
     position: absolute;
     font-size: 95px;
