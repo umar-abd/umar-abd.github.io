@@ -122,6 +122,7 @@ var animations = ['bounce', 'pulse', 'rubberBand', 'swing', 'tada'];
 var current_animation = 0;
 var timeout = null;
 var interval = 10000;
+var $textnewyear = $('.textnewyear');
 
 $(document).ready(function() {
 	var currentDate = new Date();
@@ -129,7 +130,6 @@ $(document).ready(function() {
 	futureDate.setUTCHours(0, 0, 0, 0);
 	//var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
 	var diff = 30;
-
 	clock = $clock.FlipClock(diff, {
 		clockFace: 'DailyCounter',
 		countdown: true,
@@ -157,6 +157,7 @@ function celebrate()
 	clearTimeout(timeout);
 	setTimeout(function(){
 		$message.addClass('animated flipInX').fadeIn();
+		$textnewyear.addClass('animated flipOutX').fadeOut();
 		timeout = setTimeout(bounce, interval);
 	}, 350);
 }
