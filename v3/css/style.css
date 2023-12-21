@@ -97,7 +97,7 @@ canvas {
 }
 
 .stars {
-    background: #000000 url(../img/stars.png) repeat top center;
+    background: #000000 url(../img/metallic-textured-background.jpg) repeat top center;
     z-index: 0;
 }
 
